@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,9 +67,7 @@ namespace Payroll_Alekseev
             builder.Append(" by ").Append(method);
             return builder.ToString();
         }
-    }
-    public interface Transaction
-    {
-        void Execute();
-    }
+    }    
+
+
 }
